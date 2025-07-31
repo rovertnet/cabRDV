@@ -7,23 +7,45 @@ const blogPosts = [
     title: "Comment rédiger un contrat en toute sécurité ?",
     excerpt:
       "Découvrez les étapes essentielles pour rédiger un contrat clair et légalement valide.",
-    image: "https://source.unsplash.com/600x400/?law,contract",
+    image: "https://i.postimg.cc/XN0bs93z/contract.jpg",
   },
   {
     id: 2,
     title: "Divorce à l’amiable : que faut-il savoir ?",
     excerpt:
       "Un aperçu des procédures, conditions et avantages du divorce à l’amiable.",
-    image: "https://source.unsplash.com/600x400/?divorce,court",
+    image: "https://i.postimg.cc/Gt3qK5C5/divorce.jpg",
   },
   {
     id: 3,
     title: "Droits du salarié : que dit la loi ?",
     excerpt:
       "Connaissez vos droits en tant que salarié : horaires, congés, licenciement...",
-    image: "https://source.unsplash.com/600x400/?law,employee",
+    image: "https://i.postimg.cc/yxQKPg8r/employee-rights.jpg",
+  },
+  {
+    id: 4,
+    title: "Création d’entreprise : étapes juridiques clés",
+    excerpt:
+      "Tout ce que vous devez savoir pour démarrer votre entreprise légalement.",
+    image: "https://i.postimg.cc/3N5j6VL9/startup-law.jpg",
+  },
+  {
+    id: 5,
+    title: "Litiges immobiliers : vos recours",
+    excerpt:
+      "Quels sont vos droits en cas de litige avec un bailleur ou un acheteur ?",
+    image: "https://i.postimg.cc/L6mWQhxF/real-estate-dispute.jpg",
+  },
+  {
+    id: 6,
+    title: "Harcèlement au travail : que faire ?",
+    excerpt:
+      "Les démarches juridiques pour faire face à une situation de harcèlement professionnel.",
+    image: "https://i.postimg.cc/BvRsnfqt/workplace-harassment.jpg",
   },
 ];
+
 
 export default function BlogSection() {
   return (

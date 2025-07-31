@@ -6,6 +6,9 @@ import TeamSection from './body/TeamSection';
 import TestimonialsSection from './body/TestimonialsSection';
 import MapSection from './body/MapSection';
 import AppointmentForm from './body/AppointmentForm';
+import BlogSection from './body/BlogSection';
+import ContactSection from './body/ContactSection';
+import FloatingWhatsApp from './body/FloatingWhatsApp';
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
       <TestimonialsSection />
       <MapSection />
       <AppointmentForm />
+      <BlogSection />
+      <ContactSection />
+      <FloatingWhatsApp />
     </>
   );
 }
