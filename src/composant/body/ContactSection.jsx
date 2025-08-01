@@ -67,7 +67,7 @@ export default function ContactSection() {
             ></textarea>
             <button
               type="submit"
-              className="bg-orange-600 text-white px-6 py-2 rounded hover:bg-orange-700 transition"
+              className="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 transition"
             >
               Envoyer
             </button>

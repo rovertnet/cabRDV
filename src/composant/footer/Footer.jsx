@@ -58,18 +58,18 @@ export default function Footer() {
           <p className="text-gray-300">📞 +243 999 000 000</p>
           <p className="text-gray-300">✉️ contact@cabinetjuridique.cd</p>
           <div className="flex gap-4 mt-4">
-            <a href="#" className="hover:text-orange-500">
+            <a href="#" className="hover:text-green-700">
               <FaFacebookF />
             </a>
-            <a href="#" className="hover:text-orange-500">
+            <a href="#" className="hover:text-green-700">
               <FaTwitter />
             </a>
-            <a href="#" className="hover:text-orange-500">
+            <a href="#" className="hover:text-green-700">
               <FaLinkedinIn />
             </a>
             <a
               href="https://wa.me/243999000000"
-              className="hover:text-orange-500"
+              className="hover:text-green-700"
             >
               <FaWhatsapp />
             </a>
@@ -79,12 +79,8 @@ export default function Footer() {
 
       {/* Bas de page */}
       <div className="border-t border-gray-700 pt-6 text-sm text-center text-gray-500">
-        <p>&copy; {year} Cabinet Juridique. Tous droits réservés.</p>
-        <p>
-          <a href="/mentions-legales" className="underline hover:text-white">
-            Mentions légales
-          </a>
-        </p>
+        <p>&copy; {year} RovertNet. Tous droits réservés.</p>
+        
       </div>
     </footer>
   );
