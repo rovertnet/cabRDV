@@ -9,6 +9,7 @@ import AppointmentForm from './body/AppointmentForm';
 import BlogSection from './body/BlogSection';
 import ContactSection from './body/ContactSection';
 import FloatingWhatsApp from './body/FloatingWhatsApp';
+import FaqSection from './body/FaqSection';
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
       <AppointmentForm />
       <BlogSection />
       <ContactSection />
-      <FloatingWhatsApp />
+      <FaqSection />
+      
     </>
   );
 }
